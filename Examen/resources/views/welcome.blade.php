@@ -43,7 +43,7 @@
                 @forelse($postings as $post)
                     <div class="card-group">
                         <div class="card">
-                            <div class="card-body">
+                            <div class="card-body ml-4 border border-dark">
                                 <h4 class="card-title">{{$post->title}}</h4>
                                 <p class="card-text">{{ $post->text }}</p>
                             </div>
